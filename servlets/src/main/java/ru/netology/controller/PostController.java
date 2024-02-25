@@ -1,5 +1,6 @@
 package ru.netology.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import ru.netology.model.Post;
 import ru.netology.service.PostService;
@@ -8,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/posts")
+@Controller
 public class PostController {
   private final PostService service;
 
