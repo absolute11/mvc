@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
 
-@Configurationпше
+@Configuration
 @EnableWebMvc
 public class WebConfig implements WebMvcConfigurer {
 
