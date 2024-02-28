@@ -1,5 +1,4 @@
-package ru.netology.WebConfig;
-
+package ru.netology.webconfig;
 import com.google.gson.Gson;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,7 +11,7 @@ import java.util.List;
 
 @Configuration
 @EnableWebMvc
-public class WebConfig implements WebMvcConfigurer {
+public class webconfig implements WebMvcConfigurer {
 
     @Bean
     public GsonHttpMessageConverter gsonHttpMessageConverter() {
