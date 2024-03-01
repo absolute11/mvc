@@ -4,14 +4,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-import ru.netology.webconfig.webconfig;
-import ru.netology.controller.PostController;
+import ru.netology.webconfig.WebConfig;
 import ru.netology.repository.PostRepository;
 import ru.netology.service.PostService;
 
 @Configuration
 @ComponentScan("ru.netology")
-@Import(webconfig.class)
+@Import(WebConfig.class)
 public class AppConfig {
 
     @Bean
